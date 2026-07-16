@@ -18,6 +18,7 @@ ONTAP Select vNASは、ONTAP Select仮想マシンが実行されるESXiハイ�
 
 
 
+[[basic-requirements-and-restrictions]]
 == 基本的な要件と制限
 
 ONTAP Select vNASソリューションは、あらゆる規模のONTAP Selectクラスタで使用できます。
@@ -42,6 +43,7 @@ VMwareの次の機能はサポートされません。
 
 
 
+[[configuration-requirements]]
 == 設定要件
 
 外部ストレージアレイ（iSCSI、ファイバーチャネル、イーサネット経由のファイバーチャネル）でVMFSデータストアを使用する場合は、ONTAP Selectでストレージを使用するように設定する前に、VMFSストレージプールを作成する必要があります。NFSデータストアを使用する場合は、別途VMFSデータストアを作成する必要はありません。すべてのvSANデータストアは、同一のESXiクラスタ内に定義する必要があります。
@@ -51,6 +53,7 @@ CAUTION: VMware vSAN上のすべてのデータストアまたは外部ストレ
 
 
 
+[[best-practices]]
 == ベストプラクティス
 
 VMware のドキュメントを確認し、 ESXi ホストに該当するベストプラクティスに従ってください。さらに（：）

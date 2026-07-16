@@ -18,6 +18,7 @@ ONTAP Select 容量ティアまたは容量プールライセンスは、標準�
 
 
 
+[[what-a-platform-license-offering-provides]]
 == プラットフォーム ライセンスの提供内容
 
 特定のライセンスの提供内容によって、ハイパーバイザー ホストの機能が次の 2 つの領域で決まります：
@@ -69,6 +70,7 @@ NOTE: カーネルベース仮想マシン（KVM）は、大規模インスタ�
 
 
 
+[[compare-hardware-support-for-platform-license-offerings]]
 == プラットフォーム ライセンス製品のハードウェア サポートを比較
 
 標準、プレミアム、プレミアム XL ライセンス オファリングは、幅広いハードウェアとソフトウェアをサポートします。ハードウェアとソフトウェアのバージョンに関する最新情報については、link:https://mysupport.netapp.com/matrix/["Interoperability Matrix Tool"^]を参照してください。

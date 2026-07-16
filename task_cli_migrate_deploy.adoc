@@ -20,6 +20,7 @@ summary: コマンドラインインターフェイスを使用して、既存�
 
 
 
+[[step-1back-up-the-deploy-configuration-data]]
 == ステップ1：Deploy構成データをバックアップする
 
 仮想マシンの移行の一環として、デプロイ構成データのバックアップを作成する必要があります。ONTAP Selectクラスタの導入後にもバックアップを作成する必要があります。データは暗号化された単一のファイルに保存され、ローカルワークステーションにダウンロードできます。
@@ -63,6 +64,7 @@ deploy backup show -detailed
 
 
 
+[[step-2-install-a-new-instance-of-the-deploy-virtual-machine]]
 == ステップ2：Deploy仮想マシンの新しいインスタンスをインストールします
 
 Deploy 仮想マシンの新しいインスタンスを作成し、元の仮想マシンの構成データで更新する必要があります。
@@ -88,6 +90,7 @@ link:task_install_deploy.html["ONTAP Select Deployのインストール"]
 
 
 
+[[step-3-restore-the-deploy-configuration-data-to-the-new-virtual-machine]]
 == ステップ3：Deploy構成データを新しい仮想マシンにリストアする
 
 元の Deploy ユーティリティ仮想マシンから新しい仮想マシンに構成データを復元する必要があります。データは単一のファイルに格納されているため、ローカルワークステーションからアップロードする必要があります。

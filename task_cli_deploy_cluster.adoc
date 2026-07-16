@@ -18,6 +18,7 @@ ONTAP Select Deploy管理ユーティリティに付属のコマンドライン�
 
 
 
+[[step-1-prepare-for-the-deployment]]
 == ステップ1：導入の準備
 
 ハイパーバイザー上にONTAP Selectクラスタを作成する前に、必要な準備について理解しておく必要があります。
@@ -50,6 +51,7 @@ Deploy管理ユーティリティには、ONTAP Selectの単一バージョン�
 
 
 
+[[step-2-upload-and-register-a-license-file]]
 == ステップ2：ライセンスファイルをアップロードして登録する
 
 ストレージ容量付きのライセンスファイルを取得したら、ライセンスを含むファイルをDeploy仮想マシンにアップロードして登録する必要があります。
@@ -91,6 +93,7 @@ license show
 
 
 
+[[step-3-add-hypervisor-hosts]]
 == ステップ3：ハイパーバイザーホストを追加する
 
 ONTAP Select ノードを実行する各ハイパーバイザーホストを登録する必要があります。
@@ -204,6 +207,7 @@ host show -name 10.234.81.14 -detailed
 ====
 
 
+[[step-4-create-and-configure-an-ontap-select-cluster]]
 == ステップ4：ONTAP Selectクラスタを作成して設定する
 
 ONTAP Selectクラスタを作成してから設定する必要があります。クラスタの設定が完了したら、個々のノードを設定できます。
@@ -253,6 +257,7 @@ cluster show -name <cluster_name> -detailed
 
 
 
+[[step-5-configure-an-ontap-select-node]]
 == ステップ5：ONTAP Selectノードを設定する
 
 ONTAP Select クラスタ内の各ノードを設定する必要があります。
@@ -353,6 +358,7 @@ node show -name test-cluster-01 -cluster-name test-cluster -detailed
 
 
 
+[[step-6-attach-storage-to-the-ontap-select-nodes]]
 == ステップ6：ストレージをONTAP Selectノードに接続
 
 ONTAP Selectクラスタ内の各ノードで使用されるストレージを構成します。すべてのノードには、常に少なくとも1つのストレージプールが割り当てられていなければなりません。ソフトウェアRAIDを使用する場合、各ノードには少なくとも1台のディスクドライブを割り当てる必要があります。
@@ -446,6 +452,7 @@ node storage disk show -node-name sdot-smicro-009a -cluster-name NVME
 
 
 
+[[step-7-deploy-an-ontap-select-cluster]]
 == ステップ7：ONTAP Selectクラスタを導入する
 
 クラスタとノードの設定が完了したら、クラスタを導入できます。

@@ -18,6 +18,7 @@ VMware ESXi で ONTAP Select を実行している場合は、以前のサポー
 
 
 
+[[prepare-to-upgrade-vmware-esxi]]
 == VMware ESXiのアップグレードの準備
 
 ONTAP Select クラスタをホストしているハイパーバイザー上の ESXi ソフトウェアをアップグレードする前に、環境に適したアップグレード手順を準備して選択します。
@@ -65,6 +66,7 @@ Deployユーティリティを使用するアップグレード手順を選択�
 
 
 
+[[upgrade-a-single-node-cluster-using-deploy]]
 == Deploy を使用してシングルノード クラスタをアップグレードする
 
 ONTAP Select シングルノード クラスタをホストする VMware ESXi ハイパーバイザーをアップグレードする手順の一部として、Deploy 管理ユーティリティを使用できます。
@@ -102,6 +104,7 @@ Deploy 管理ユーティリティを使用して、クラスタの更新操作�
 
 
 
+[[upgrade-a-multi-node-cluster-using-deploy]]
 == Deploy を使用してマルチノード クラスタをアップグレードする
 
 ONTAP Select マルチノード クラスタをホストする VMware ESXi ハイパーバイザーをアップグレードする手順の一部として、Deploy 管理ユーティリティを使用できます。
@@ -156,6 +159,7 @@ ONTAP Select クラスタで使用される各ホストに対してアップグ�
 
 
 
+[[upgrade-a-single-node-cluster-without-deploy]]
 == Deploy を使用せずにシングルノード クラスタをアップグレードする
 
 Deploy管理ユーティリティを使用せずに、ONTAP Selectシングルノード クラスタをホストしているVMware ESXiハイパーバイザーをアップグレードできます。
@@ -192,6 +196,7 @@ Deploy 管理ユーティリティを使用して、クラスタの更新操作�
 
 
 
+[[upgrade-a-multi-node-cluster-without-deploy]]
 == Deployを使用せずにマルチノードクラスタをアップグレードする
 
 Deploy 管理ユーティリティを使用せずに、ONTAP Select マルチノードクラスタをホストしている VMware ESXi ハイパーバイザーをアップグレードできます。

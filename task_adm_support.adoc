@@ -18,6 +18,7 @@ ONTAP Select の管理の一環として実行できる関連する診断およ�
 
 
 
+[[configure-the-deploy-system]]
 == Deployシステムを構成する
 
 Deployユーティリティの動作に影響を与える基本的なシステム構成パラメータを設定する必要があります。
@@ -42,6 +43,7 @@ Deployユーティリティの動作に影響を与える基本的なシステ�
 
 
 
+[[display-the-ontap-select-deploy-event-messages]]
 == ONTAP Select Deployイベントメッセージを表示する
 
 ONTAP Select Deployユーティリティには、システムのアクティビティに関する情報を提供するイベントロギング機能が含まれています。問題のデバッグを行う場合、またはサポート担当者から指示があった場合は、イベントログの内容を確認してください。
@@ -66,6 +68,7 @@ ONTAP Select Deployユーティリティには、システムのアクティビ�
 
 
 
+[[enable-autosupport]]
 == AutoSupportを有効にする
 
 必要に応じてAutoSupport機能を有効または無効にすることができます。
@@ -82,6 +85,7 @@ AutoSupportは、NetAppがONTAP Selectをサポートする際に使用する主
 
 
 
+[[generate-and-download-an-autosupport-package]]
 == AutoSupportパッケージを生成してダウンロードします
 
 ONTAP Selectには、AutoSupportパッケージを生成する機能が含まれています。問題のデバッグを行うため、またはサポートから指示があった場合は、パッケージを生成してください。

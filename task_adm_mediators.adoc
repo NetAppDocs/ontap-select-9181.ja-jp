@@ -18,6 +18,7 @@ summary: 各ONTAP Select 2ノードクラスタは、ノード間で共有され
 
 
 
+[[view-the-status-of-the-mediator-service]]
 == メディエーターサービスのステータスを表示する
 
 ONTAP Select Deploy ユーティリティに定義された各 2 ノード クラスタに関して、メディエーター サービスのステータスを表示できます。

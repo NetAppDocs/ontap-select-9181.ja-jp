@@ -18,6 +18,7 @@ ONTAP Select 環境の導入を計画する際には、いくつかの一般的�
 
 
 
+[[required-linux-knowledge-and-skills-for-kvm]]
 == KVMに必要なLinuxの知識とスキル
 
 KVMハイパーバイザーを使用したLinuxは、複雑な作業環境です。KVM上にONTAP Selectを導入する前に、必要な知識とスキルを習得しておく必要があります。
@@ -61,6 +62,7 @@ KVMの導入と管理:: 仮想化の一般的な概念を理解しておく必�
 
 
 
+[[cluster-size-and-related-considerations]]
 == クラスタサイズと関連する考慮事項
 
 クラスタサイズに関連して考慮すべき計画上の問題がいくつかあります。
@@ -71,6 +73,7 @@ KVMの導入と管理:: 仮想化の一般的な概念を理解しておく必�
 
 
 
+[[hypervisor-host-considerations]]
 == ハイパーバイザーホストに関する考慮事項
 
 ハイパーバイザーホストに関連して検討すべき計画上の問題がいくつかあります。
@@ -124,6 +127,7 @@ ONTAP SelectとONTAPハードウェアベースクラスタの統合:: ONTAP Sel
 
 
 
+[[storage-considerations]]
 == ストレージに関する考慮事項
 
 考慮すべきホストストレージに関連する計画上の問題がいくつかあります。
@@ -156,6 +160,7 @@ NOTE: ONTAP Selectのストレージ容量は、ONTAP Select仮想マシンに�
 
 
 
+[[authentication-using-the-credential-store]]
 == 認証情報ストアを使用した認証
 
 ONTAP Select Deploy クレデンシャルストアは、アカウント情報を保持するデータベースです。Deploy は、クラスタの作成と管理の一環として、アカウントクレデンシャルを使用してホスト認証を実行します。ONTAP Select 環境の導入を計画する際には、クレデンシャルストアがどのように使用されるかを理解しておく必要があります。

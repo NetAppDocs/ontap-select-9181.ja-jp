@@ -26,6 +26,7 @@ SnapMirrorソフトウェアを使用すると、ハイブリッドクラウド�
 
 
 
+[[software-defined-storage]]
 == ソフトウェアで定義されるストレージ
 
 ソフトウェアを介したITサービスの導入と提供により、管理者は従来不可能だったスピードと俊敏性でリソースを迅速にプロビジョニングできるようになる。現代のデータセンターがソフトウェアで定義されるインフラストラクチャ（SDI）アーキテクチャに移行することで、最も価値の高いIT資産を基盤となる物理インフラストラクチャから分離し、柔軟性、拡張性、プログラマビリティを実現できます。
@@ -36,18 +37,21 @@ ONTAP Selectは、NetAppのSDS市場向けソリューションです。ONTAP Se
 
 
 
+[[two-software-components]]
 == 2つのソフトウェアコンポーネント
 
 ONTAP Selectは、主に2つのソフトウェアコンポーネントで構成されています。
 
 
 
+[[ontap-select-node]]
 === ONTAP Selectノード
 
 ONTAP Selectクラスタは、1つ、2つ、4つ、6つ、8つ、10個、または12個のノードで構成されます。各クラスタノードは個別の仮想マシンとしてデプロイされ、特別に設計されたバージョンのONTAP 9ソフトウェアを実行します。
 
 
 
+[[ontap-select-deploy-administration-utility]]
 === ONTAP Select Deploy管理ユーティリティ
 
 Deploy管理ユーティリティは、独立したLinux仮想マシンとしてパッケージ化され、インストールされます。本番環境でONTAP Selectクラスタを導入するには、このユーティリティを使用する必要があります。現在のバージョンのONTAP Selectノードイメージは、Deployユーティリティにバンドルされています。
@@ -57,6 +61,7 @@ NOTE: Deploy管理ユーティリティには、個別のバージョン番号�
 
 
 
+[[illustration-of-a-typical-deployment]]
 == 一般的な導入環境の図
 
 次の図は、4ノードONTAP Selectクラスタの導入とサポートに使用されるNetApp ONTAP Select Deploy管理ユーティリティを示しています。DeployユーティリティとONTAP Selectノードは、専用のハイパーバイザーホスト上で個別の仮想マシンとして実行されます。
@@ -65,6 +70,7 @@ image:ots_architecture.png["Deploy管理ユーティリティを使用して作�
 
 
 
+[[flexcache-write-back-with-ontap-select]]
 == FlexCache による ONTAP Select への書き戻し
 
 ONTAP Selectは、ライトバック機能付きFlexCacheキャッシュボリュームをサポートしています。ONTAP Selectインスタンス全体のパフォーマンスは、エントリーレベルのONTAPシステムに匹敵します。
@@ -82,30 +88,35 @@ link:https://docs.netapp.com/us-en/ontap/flexcache-writeback/flexcache-write-bac
 
 
 
+[[compare-ontap-select-and-ontap-9]]
 == ONTAP SelectとONTAP 9の比較
 
 ハードウェアベースONTAPとONTAP Selectは、どちらもエンタープライズクラスのストレージソリューションを提供します。しかし、設計や実装方法が異なるため、それぞれ異なるビジネス要件や利用シナリオに対応できます。ONTAP Select導入を計画する前に、プラットフォーム間の主な違いをよく理解しておく必要があります。
 
 
 
+[[different-ha-architecture]]
 === 異なるHAアーキテクチャ
 
 クラスターで定義するノードの数に応じて、ONTAP SelectはHA（高可用性）機能を提供します。例えば、4ノードのクラスタは2組のHAペアで構成されます。ONTAP Selectで使用されるHAアーキテクチャは、非共有ストレージモデルに基づいています。つまり、HAペアを構成するノードのうち、一方のノードは他方のノードが所有するストレージに直接アクセスすることはできません。この設計は、特定のONTAP Selectの動作特性に影響を与える可能性があります。
 
 
 
+[[capacity-licensing]]
 === 容量ライセンス
 
 ONTAP Selectは消費ベースのライセンス モデルを導入しています。本番環境でONTAP Selectクラスタを導入する場合は、ノードまたは共有容量プールごとにストレージ容量のライセンスを購入する必要があります。Deployユーティリティを使用して、クラスタノードのストレージ容量を設定するライセンスファイルを適用する必要があります。
 
 
 
+[[ontap-feature-licensing]]
 === ONTAP機能ライセンス
 
 ONTAP Selectクラスタの各ノードには、複数のONTAP機能を使用するためのライセンスが自動的に付与されます。これらの機能ライセンスを手動でインストールまたは適用する必要はありません。
 
 
 
+[[ontap-features-not-supported-in-ontap-select]]
 === ONTAP Selectでサポートされていないオンタップの機能
 
 ONTAP Select では、いくつかの ONTAP 機能がサポートされていません。ほとんどの場合、これらの機能には、仮想化された ONTAP Select 環境では利用できない特別なハードウェアが必要です。
