@@ -94,7 +94,6 @@
   <block id="c94bc3200f704807c4c41ce4c2e2b2d8" category="paragraph">ONTAP Select クラスタで使用される各ホストに対してアップグレード手順を実行する必要があります。</block>
   <block id="ffc775822cbd19e463401855c97e8181" category="summary">ONTAP Select MetroCluster SDSは、強化された保護機能と費用対効果の高い導入を実現します。</block>
   <block id="24d0d0c7fc9a3866a568dea751e3cd63" category="doc">ONTAP Selectデータ保護と効率性について学ぶ</block>
-  <block id="fd1f31b53e7242c3be0dbe67d6dbb5fb" category="paragraph">ONTAP SelectはONTAPストレージソフトウェアをベースに構築されており、高可用性の共有なしスケールアウトアーキテクチャでエンタープライズストレージサービスを効率的に提供します。1、2、4、6、8、10、または12ノードでソリューションをデプロイでき、ノードあたり最大400TBの生容量でNFS、SMB/CIFS、およびiSCSI接続ストレージを利用できます。ネイティブの重複排除と圧縮を活用することで、実効容量を増やし、ストレージコストを削減できます。スケールアウトアーキテクチャにより、ロード バランシングまたはハードウェアの保守のための高可用性と中断のないデータ移動が可能になります。</block>
   <block id="b489b293d6cbe8b86835d3cac8c315fb" category="section-title">Snapshotデータ保護</block>
   <block id="467385c0c4913cc96395e5493d47b3bc" category="paragraph">ONTAP Selectには、スナップショットやSnapMirrorソフトウェアなどのデータ保護機能が含まれています。オンプレミス、リモートサイト、クラウドのいずれの場所でも、他のONTAPストレージにデータを迅速にレプリケートできます。データを迅速にリカバリする必要がある場合、SnapRestoreソフトウェアはローカルスナップショットを使用して、容量やファイル数に関係なく、ファイルシステム全体またはデータボリューム全体を数秒でリカバリできます。</block>
   <block id="787fb8fbafed37b77c3881f9e0c851a0" category="section-title">MetroCluster ソフトウェアで定義されるストレージ</block>
@@ -1101,14 +1100,12 @@
   <block id="0e68718563c850d8c86e630de430e588" category="paragraph">Deploy仮想マシンのIPアドレスまたはドメイン名を使用して、オンラインドキュメントページにアクセスできます。ページを表示するには、ブラウザに次の形式のURLを入力します（DeployのVMインスタンスに適したIPアドレスまたはドメイン名に置き換えてください）：<block ref="65b6906201e24740d3ed28588ffd2826" prefix=" " category="inline-code"></block></block>
   <block id="d5955f327d5d79aa3434b5772a31b4d8" category="summary">ONTAP Selectは、ハイパーバイザーホスト上に仮想マシンとしてデプロイするソフトウェアのみのバージョンのONTAPです。主流のFASおよびAFF ONTAP製品群や、Cloud Volumes ONTAPなどの他のソフトウェアのみのオプションを補完します。</block>
   <block id="ecfebb50ecfee3163729b1b24cfa5d09" category="doc">ONTAP Selectについて学ぶ</block>
-  <block id="69bbee1943d709d1872e201eef4b29a8" category="paragraph">ONTAP Selectは、ハイパーバイザーホスト上の仮想マシンとしてデプロイできる、ソフトウェアのみのバージョンのONTAPです。これは、主流のFAS、AFF、ASA ONTAP製品群や、Cloud Volumes ONTAPなどの他のソフトウェアのみのオプションを補完するものです。</block>
   <block id="00a3caa2896a927e39b353d23b56eb2d" category="paragraph">ONTAP Selectは、内蔵ディスクドライブ、NVMe、SSD、HDD、および外部アレイストレージを、専用ONTAPストレージシステムと同様の多くの利点を備えた柔軟なストレージシステムに変換します。ONTAP Selectは、新しいサーバーまたは既存のサーバーインフラストラクチャに導入することもできます。ONTAP Selectは管理が容易で、ONTAPベースのソリューションと同じ管理ソフトウェアを活用するため、運用コストと研修要件が削減されます。</block>
   <block id="8307546cfa4f0ccad4627a2dcd4f46fa" category="paragraph">ONTAP Selectは、容量ティアと完全に柔軟な容量プールという2つの補完的なライセンスモデルにより、お客様の容量消費ニーズに対応します。どちらのライセンスモデルでも、容量を最小1TB単位で増やすことができます。例えば、最初は数テラバイトの容量から始めて、プロジェクトの規模拡大に合わせて動的に容量を追加していくことができます。容量プールを使用している場合、プロジェクト完了後に必要に応じて容量を再配分できます。</block>
   <block id="5b6d4054ef7052cdbac6938952fde107" category="paragraph">ONTAP SelectはVMwarevSphereやKernel-based Virtual Machine（KVM）などのクラウド管理フレームワークに統合されています。これにより、ファイルサービス、ホームディレクトリ、ソフトウェア開発環境、アプリケーションテストなどの新しいプロジェクトの導入を加速できます。</block>
   <block id="39de1f5e6bbe7e17017c377d3305e9fd" category="paragraph">SnapMirrorソフトウェアを使用すると、ハイブリッドクラウド全体でONTAPストレージ間でデータを移動できるため、必要な場所で簡単にデータにアクセスできます。たとえば、アイデアを検証するための環境を素早く構築できます。その後、プロジェクトを専用のストレージプラットフォームに移動して本番環境にデプロイしたり、開発ワークフローの一環としてクラウドでよりアクセスしやすくしたりできます。</block>
   <block id="9ed6c695ae7ec8113471a76ddcea07cf" category="section-title">ソフトウェアで定義されるストレージ</block>
   <block id="9c191e042a5bb50dde6bcacd73b9fc18" category="paragraph">ソフトウェアを介したITサービスの導入と提供により、管理者は従来不可能だったスピードと俊敏性でリソースを迅速にプロビジョニングできるようになる。現代のデータセンターがソフトウェアで定義されるインフラストラクチャ（SDI）アーキテクチャに移行することで、最も価値の高いIT資産を基盤となる物理インフラストラクチャから分離し、柔軟性、拡張性、プログラマビリティを実現できます。</block>
-  <block id="718d7c969f416878691ffcaa2bdf3ca1" category="paragraph">データが直接接続ストレージ（DAS）のサイロに分散しているコモディティ化された世界では、データの移動と管理はより複雑な問題となっている。ソフトウェアで定義されるストレージ（SDS）は、これらの問題やその他の問題に対処するために、SDI環境において重要な要素として登場しました。</block>
   <block id="b2c8689de5a7643d75bcb087da31d4a0" category="paragraph">ONTAP Selectは、NetAppのSDS市場向けソリューションです。ONTAP Selectは、エンタープライズクラスのストレージ管理機能をソフトウェアで定義されるデータセンターにもたらし、NetApp Data Fabricアーキテクチャをモノのインターネット（IoT）や戦術サーバーなどの最先端のユースケースにまで拡張します。</block>
   <block id="5e75bdbfd3f02cf9f655d512b767dc1f" category="section-title">2つのソフトウェアコンポーネント</block>
   <block id="1524f7469af0e3274a12cb0f88c7e172" category="paragraph">ONTAP Selectは、主に2つのソフトウェアコンポーネントで構成されています。</block>
@@ -1157,7 +1154,6 @@
   <block id="6c9348bc5d04685460e6acda750ab989" category="list-text">ONTAPポートのプロパティ</block>
   <block id="b360fb78c737d920cd251b2f7358f606" category="paragraph">速度、デュプレックス、フロー制御などのONTAPポートのプロパティの変更はサポートされていません。</block>
   <block id="b77e0c9663536ba98dbe087f083ddb67" category="list-text">サービスプロセッサ</block>
-  <block id="363ac709cba54fea743eb36bb06d23c7" category="list-text">SVMの移行</block>
   <block id="c38c45e0a73411d375d048ee41944853" category="list-text">SnapLock Compliance</block>
   <block id="c0b79db5f258f0c991a383cbdbf001dd" category="list-text">SnapMirrorアクティブ同期</block>
   <block id="b7e93a737ead6d7716c8af57ebde241a" category="list-text">VMware HCX</block>
@@ -1684,7 +1680,6 @@
   <block id="f6dbfcdd0f076283f4df3208ab633467" category="paragraph">VMware ESXi上でOVFテンプレートを使用して、シングルノードから最大99ノードまでの規模のONTAP Selectクラスタの90日間評価インスタンスをデプロイできます。既存のお客様、新規のお客様を問わず、評価版ライセンスをダウンロードできます。例えば、既存のお客様で、ライセンスを購入する前に新しい構成を試してみたい場合などです。</block>
   <block id="f9f5faecdbf3b023cf5652fa18b8c4ee" category="list-text">NetAppからシリアル番号やストレージ容量ライセンスを取得する必要はありません。</block>
   <block id="591ba54105fed20bc4bc8e31cee68eb3" category="list-text">購入したライセンスと同量のストレージをユーザデータに割り当てることができます。</block>
-  <block id="10db4e06bde0886ecc0f97ce3a350d45" category="list-text">評価版ライセンスから購入版ライセンスにノードをアップグレードすることはできません。</block>
   <block id="de68e769353f85803d50af3ad5192201" category="list-text">OVFテンプレートをデプロイするには、vCenterアカウントのみを使用できます。ESXiホストへの直接インストールは現在サポートされていません。</block>
   <block id="5ec5e552cbceca200e1e7e00c7ece71f" category="list-text">OVFテンプレート（ovaファイルに含まれる）をインストールするには、vSphereスタンドアロンクライアントまたはvSphere Webクライアント（ESXi 8.0以降では唯一の選択肢）を使用する必要があります。ONTAP Select Deploy管理ユーティリティは使用しません。</block>
   <block id="ced8179cabed6ee9f3127b0c5fafd2db" category="section-title">ステップ1：ONTAP Selectクラスタホストを準備する</block>
@@ -4059,4 +4054,10 @@
   <block id="3c877a9561264bd22f7ed715473c9258" category="paragraph">vCenter で vSAN Express Storage Architecture （ESA） を作成および管理するには、次の vSphere コンテンツライブラリ権限が必要です：</block>
   <block id="913b24f487842d48914e3794480e83cc" category="admonition">コンテンツライブラリの権限にアクセスするには、管理者が vCenter Server のグローバル権限へのアクセスを許可する必要があります。</block>
   <block id="c0d2cde9a14e7d58e2ab5a38de5b380d" category="paragraph"><block ref="c0d2cde9a14e7d58e2ab5a38de5b380d" category="inline-link-macro-rx"></block></block>
+  <block id="35c865322fb18e49c0e0d5db1a728645" category="paragraph">ONTAP Select は、高可用性の共有なしのスケールアウトアーキテクチャを採用した ONTAP ストレージソフトウェアをベースに構築されており、エンタープライズストレージサービスを効率的に提供します。1ノード、2ノード、4ノード、6ノード、8ノード、10ノード、または12ノードでソリューションをデプロイでき、各ノードあたり最大400TBのNFS、SMB/CIFS、およびiSCSI接続ストレージの生容量を利用できます。ネイティブの重複排除と圧縮を活用することで、実効容量を増やし、ストレージコストを削減できます。スケールアウトアーキテクチャにより、ロード バランシングやハードウェアの保守のための高可用性と中断のないデータアクセスが実現します。</block>
+  <block id="8caf5b702720dd48353d13906ca133b0" category="paragraph">ONTAP Selectは、ハイパーバイザーホスト上の仮想マシンとしてデプロイできる、ソフトウェアのみのバージョンのONTAPです。主流のAFFおよびFAS ONTAP製品群や、Cloud Volumes ONTAPなどの他のソフトウェアのみのオプションを補完します。</block>
+  <block id="8132fb388d9980a45bf3e73000044650" category="paragraph">データが直接接続ストレージ（DAS）のサイロに分散しているコモディティ化された世界では、データへのアクセスと管理はより複雑な問題となっています。ソフトウェア定義ストレージ（SDS）は、これらの問題やその他の問題に対処するために、SDI環境において重要な要素として登場しました。</block>
+  <block id="972cc139ce081218935961184ceb872f" category="list-text">非同期 SnapMirror の整合グループ</block>
+  <block id="2dd64bd29dd925332151bac56daee54d" category="list-text">SVM-Migrate</block>
+  <block id="191cca9b69f6675fd704265efaee5cd4" category="paragraph">ONTAP Selectは、非同期 SnapMirrorにおけるコンシステンシー グループをサポートしていません。</block>
 </blocks>

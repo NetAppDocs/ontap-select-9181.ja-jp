@@ -54,6 +54,9 @@ SnapLock SelectはONTAP Select向けに設計されたONTAP SnapLockの実装で
 link:https://docs.netapp.com/us-en/ontap/snaplock/index.html["ONTAP SnapLock"^]について学ぶ
 
 * SnapMirror
++
+ONTAP Selectは、非同期 SnapMirrorにおけるコンシステンシー グループをサポートしていません。
+
 * SnapRestore
 * SnapVault
 * Storage VM ディザスタリカバリ（SVM DR）
